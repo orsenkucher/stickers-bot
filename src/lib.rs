@@ -7,7 +7,6 @@ pub use config::ConfigParameters;
 pub use schema::schema;
 
 use teloxide::adaptors::DefaultParseMode;
-use teloxide::dispatching::dialogue::{serializer::Json, ErasedStorage, SqliteStorage, Storage};
 use teloxide::prelude::*;
 use teloxide::requests::RequesterExt;
 use teloxide::types::ParseMode;
