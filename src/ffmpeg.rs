@@ -26,7 +26,7 @@ pub async fn run(file_id: &str) -> anyhow::Result<String> {
             let cmd = Command::new("ffmpeg")
                 .arg("-y")
                 .arg("-t")
-                .arg("00:00:03")
+                .arg("00:00:02.950")
                 .arg("-i")
                 .arg(format!("./source/{}.mp4", file_id))
                 .arg("-i")
